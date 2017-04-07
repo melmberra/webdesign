@@ -11,8 +11,8 @@ h1 {
 h2 {
 	align-content:center;
 	position: absolute;
-	top:85px;
-	left:620px;
+	text-align: center; 
+	padding-left: 22em;
 	
 }
 
@@ -26,8 +26,20 @@ body{
 	display: inline-block;
 	position:absolute;
 	left: 425px;
+
 	
+}
+.contact {
+	list-style-type: none;
+	text-align: center;
+	
+}
+
+.contact img {
+	width: 60%;
+	padding-top: 2em;
 }
 h1 a{text-decoration: none;
 	color:black;
+	text-align: center; 
 }

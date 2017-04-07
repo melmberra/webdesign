@@ -4,44 +4,43 @@
 h1 {
 	align-content: center;
 	font-size: 60px;
+	text-align: center;	
 }
 h3 {
 	align-content:center;
-	position: absolute;
 	font-size: 25px;
 	left: 575px;
 	top: 80px;
+	text-align: center;
 	
 	}
 h4 {
 	align-content: center;
-	position:absolute;
-	left:615px;
-	top: 170px;
 	font-size: 13px;
+	text-align: center;
 }
 
 h5 {
 	align-content: center;
-	position:absolute;
 	left:625px;
 	font-size: 13px;
 	top:750px;
+	text-align: center;
 }
 
 h6 {
 	align-content:center;
-	position:absolute;
 	left:620px;
 	font-size:13px;
 	top:1760px;
+	text-align: center;
 }
 	
 	
 
 body{
 	font-family: Basic title font, "Trebuchet MS", Arial, sans-serif;
-	text-align: center;		
+	/*text-align: center;*/		
 }
 
 #illustrations {display: inline-block;
@@ -57,6 +56,15 @@ body{
 	left:220px;
 	top:440px;
 	list-style-type: none;
+}
+
+.illustration{
+	display: inline-block;
+	list-style-type: none;
+}
+
+.illustration img {
+	width: 100%;
 }
 	
 #graphic{
@@ -84,6 +92,17 @@ body{
 	list-style-type:none;
 }
 
+.graphic {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.graphic img {
+	width: 170%;
+	padding-left: 15em;
+	
+}
+
 #filmposters{
 	display:inline-block;
 	position:absolute;
@@ -91,15 +110,26 @@ body{
 	top:1790px;
 	list-style-type:none;
 }
+.filmposter  {
+	display: inline-block;
+	list-style-type: none;
+	
+		
+}
+
+.filmposter img {
+	width: 100%;
+	padding-left: 10em;
+}
 
 	
 .navigation {
 	
-	position: absolute;
-	left: 550px;
-	top: 120px;
+
 	list-style-type: none;
-	width: 100%;
+	width: 22%;
+	text-align: center;
+
 	
 }
 
@@ -107,11 +137,40 @@ li{
 	padding: 5px;
 	float: left;
 	text-align:center;
+	width: 30%;
+	/*display: inline-block;*/
+	vertical-align: top;
+	
 }
 
 a {
 	display:inline-block;
 	color: black;
 	text-decoration: none;
+	padding-left: 26em;
 	
+}
+
+@media screen and (max-width: 600px) {.navigation {
+	list-style-type: none;
+	background color: #FFFFFF;
+	}
+	
+	}
+	
+	
+	.navigation a {
+		width: 100%;
+		display: block;
+		text-decoration: none;
+	}
+	
+	.illustration img {
+		width:100%;
+	}
+
+.graphic img {
+	width: 170%;
+	
+}
 }
