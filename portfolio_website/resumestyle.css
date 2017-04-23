@@ -9,14 +9,8 @@ h1 {
 
 h2 {
 	align-content:center;
-	position:absolute;
-	top:85px;
-	font-size:25px;
-	padding-left: 21em;
-	text-align: center;
-	
-	
-	
+	font-size:30px;
+	text-align: center;	
 }
 
 body{
@@ -25,8 +19,38 @@ body{
 }
 
 .resume img {
-	width: 60%
+	width: 70%;
+	padding-right: 2em;
 }
+
 
 h1 a{text-decoration: none;
 	color:black;}
+
+.heading a:hover {color: #FDA6F9;}
+
+.navigation {
+	
+	list-style-type: none;
+	text-align: center;
+	position:fixed; 
+	
+	
+}
+
+	.navigation a {
+		width: 100%;
+		display: block;
+		text-decoration:none;
+		text-align: center; 
+	}
+
+li{
+	padding: 9px;
+	text-align:center;
+	width: 30%;
+	/*display: inline-block;*/
+	vertical-align: top; 
+	padding-left: 1em;
+	font-size: 23px;
+}

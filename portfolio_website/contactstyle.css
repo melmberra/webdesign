@@ -4,42 +4,60 @@
 h1 {
 	align-content: center;
 	font-size: 60px; 
-		
- 
 }
 
 h2 {
 	align-content:center;
-	position: absolute;
-	text-align: center; 
-	padding-left: 22em;
-	
+	font-size: 30px;	
 }
 
 body{
 	font-family: Basic title font, "Trebuchet MS", Arial, sans-serif;
-	text-align: center;	
-	
+	text-align: center;		
 }
 
 #contact{
 	display: inline-block;
-	position:absolute;
-	left: 425px;
-
-	
+	position: absolute;
 }
 .contact {
 	list-style-type: none;
 	text-align: center;
-	
 }
 
 .contact img {
 	width: 60%;
-	padding-top: 2em;
+	padding-right:2em;
 }
+
 h1 a{text-decoration: none;
 	color:black;
 	text-align: center; 
+}
+
+.heading a:hover {color: #FDA6F9;}
+
+.navigation {
+	
+	list-style-type: none;
+	text-align: center;
+	position:fixed; 
+}
+
+	.navigation a {
+		width: 100%;
+		display: block;
+		text-decoration: none;
+		text-align: center; 
+	}
+
+li{
+	padding: 9px;
+	text-align:center;
+	width: 30%;
+	/*display: inline-block;*/
+	vertical-align: top; 
+	padding-left: 1em;
+	font-size: 23px
+	
 }
